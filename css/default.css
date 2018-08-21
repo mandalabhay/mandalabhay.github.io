@@ -15,3 +15,39 @@ header,footer,section,nav,article,address,aside,section{display:block;}
 label{font-weight: normal}
 
 .form-control, .btn, .dropdown-menu, .input-group-text{font-size:1.4rem;}
+html{height:100%;}
+body{min-height: 100%;position:relative; padding-bottom: 70px}
+body:after{content: ""; display: block; clear: both}
+
+
+/*-----------------------Header CSS------------------------*/
+.navbar{box-shadow: 0 0 15px rgba(0,0,0,0.2); background: #fff}
+.navbar-default{background: #1e2a39 ; color: #fff; border-color: #1e2a39; border-bottom:5px solid #33beaf; padding:0}
+.navbar-brand{height: auto; font-weight: 600; text-shadow: 0 2px 1px rgba(0,0,0,0.3); padding:0; margin-right:0;     line-height: 1.25rem;}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: #fff}
+.navbar-brand>img{padding-right: 25px;}
+
+.nav{font-size:13px;}
+.nav-link{color:#777; transition:all 200ms ease-in-out; margin-right:1px; padding:10px 12px;}
+.nav-link:focus, .nav-link:hover, .nav-item:hover{background:#fff; color:#8ab22f}
+.dropdown-item{padding:7px 12px; color:#1e2a39}
+.dropdown{height:auto}
+.dropdown:hover>.dropdown-menu{display: block;border-radius: 0px;}
+.navbar-nav>li>.dropdown-menu{border-radius: 5px; top:100%}
+.nav .dropdown-menu:before{content: "";display: block;right: 30px;top: -3px;position: absolute;}
+.nav .dropdown-menu:before{border-top: 7px solid #00ae9b;border-left: 7px solid transparent;border-right: 7px solid transparent;}
+.dropdown-menu{font-size: 12px; border-color: #F8F8F8; box-shadow: 2px 5px 6px 0px rgba(0, 174, 155, 0.07); border: 1px solid #dfebf3; z-index:1071; left:auto; right:0; margin:0; padding: 0; border-radius: 0}
+.dropdown-item.active, .dropdown-item:active{background:#00ae9b}
+span.dropdown-item, span.dropdown-item:hover{background:#dae3e6}
+
+button, input, optgroup, select, textarea{font-family:"Arial", sans-serif;}
+/*-----------------------Header CSS end------------------------*/
+
+/*-----------------------Body CSS------------------------*/
+
+/*-----------------------Body CSS end------------------------*/
+
+/*-----------------------Footer CSS------------------------*/
+.footer{position:absolute;bottom:0;width:100%; left: 0; border-top:1px solid #efefef}
+.footer, .footer a, .footer a:hover, .footer a:focus{}
+/*-----------------------Footer CSS end------------------------*/
