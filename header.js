@@ -1,4 +1,4 @@
-document.write(`<header class="sticky-top">
+.ocument.write(`<header class="sticky-top">
 <nav class="navbar navbar-expand-lg text-white mb-3 py-3">
   <a class="navbar-brand" href="index.html">Portfolio</a>
   <button class="navbar-toggler hidden-sm-up pull-right p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
@@ -27,9 +27,11 @@ document.write(`<header class="sticky-top">
             </a>
         </li>
       <li>
-           <a class="nav-link" href="Resume.html">
-             Resume
+          <span>
+           <a class="nav-link" href="javascript:void(0)">
+             Resume <i class="fas fa-download"></i> 
             </a>
+          </span>
         </li>
    </ul>
   </div>
