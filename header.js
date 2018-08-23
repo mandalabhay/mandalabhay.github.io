@@ -1,5 +1,5 @@
 document.write(`<header class="sticky-top">
-<nav class="navbar navbar-expand-lg text-white mb-3 py-3">
+<nav class="navbar navbar-expand-lg text-white py-3">
   <a class="navbar-brand" href="index.html">Portfolio</a>
   <button class="navbar-toggler hidden-sm-up pull-right p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fas fa-bars size24 greyDark"></i></span>
