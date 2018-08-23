@@ -22,7 +22,7 @@ body:after{content: ""; display: block; clear: both}
 
 
 /*-----------------------Header CSS------------------------*/
-.navbar{box-shadow: 0 0 15px rgba(0,0,0,0.2); background: #4235d9; background: linear-gradient(135deg, rgba(66,53,217,1) 0%, rgba(0,139,225,1) 100%);}
+.navbar{box-shadow: 0 0 15px rgba(0,0,0,0.2); background: #4235d9; background: linear-gradient(135deg, rgba(66,53,217,1) 0%, rgba(0,139,225,1) 100%); padding-left:15px; padding-right:15px}
 .navbar-brand{height: auto;font-weight: 600;text-shadow: 1px 2px 0px rgba(0,0,0,0.5);padding:0;margin-right:0;color: #fff;line-height: 1.25rem;font-size: 2.5rem;}
 .navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active{color:#fff}
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: #fff}
