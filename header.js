@@ -5,7 +5,7 @@ document.write(`<header class="sticky-top">
     <span class="navbar-toggler-icon"><i class="fas fa-bars size24 greyDark"></i></span>
   </button>
 
-  <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+  <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
     <ul class="navbar-nav ml-auto">
     	<li>
            <a class="nav-link" href="index.html">
