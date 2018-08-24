@@ -28,7 +28,7 @@ document.write(`<header class="sticky-top">
         </li>
       <li>
           <span class="download">
-           <a class="nav-link" href="javascript:void(0)">
+           <a href="javascript:void(0)">
              Resume <i class="fas fa-download"></i> 
             </a>
           </span>
